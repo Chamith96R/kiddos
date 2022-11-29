@@ -252,11 +252,11 @@ export default function Home() {
                 <div className="container">
                     <div>
                         <img src="images/teacher-1.jpg" alt=""/>
-                        <div className="flex justify-center justify-around items-center bg-gray-300 p-6 ">
-                            <BeakerIcon className="h-4 w-4"></BeakerIcon>
-                            <HeartIcon className="h-4 w-4"></HeartIcon>
-                            <KeyIcon className="h-4 w-4"></KeyIcon>
-                            <AcademicCapIcon className="h-4 w-4"></AcademicCapIcon>
+                        <div className="flex pl-16 pr-16 justify-around items-center bg-gray-300 p-6 ">
+                            <BeakerIcon href="" className="h-4 w-4 text-orange-500"></BeakerIcon>
+                            <HeartIcon href="" className="h-4 w-4 text-orange-500"></HeartIcon>
+                            <KeyIcon href="" className="h-4 w-4 text-orange-500"></KeyIcon>
+                            <AcademicCapIcon href="" className="h-4 w-4 text-orange-500"></AcademicCapIcon>
                         </div>
                     </div>
                     <div className="pt-3 text-center">
@@ -269,15 +269,15 @@ export default function Home() {
                 </div>
             </div>
 
-            <div data-aos="fade-up" className="md:w-1/2 pr-4 pl-4 lg:w-1/4 pr-4 pl-4 ftco-animate">
+            <div data-aos="fade-up" className="md:w-1/2 pr-4 pl-4 lg:w-1/4">
                 <div className="staff">
                     <div>
                         <img src="images/teacher-2.jpg" alt=""/>
-                        <div className="flex justify-center justify-around items-center bg-gray-300 p-6 ">
-                            <BeakerIcon className="h-4 w-4"></BeakerIcon>
-                            <HeartIcon className="h-4 w-4"></HeartIcon>
-                            <KeyIcon className="h-4 w-4"></KeyIcon>
-                            <AcademicCapIcon className="h-4 w-4"></AcademicCapIcon>
+                        <div className="flex pl-16 pr-16 justify-around items-center bg-gray-300 p-6 ">
+                            <BeakerIcon href="" className="h-4 w-4 text-orange-500"></BeakerIcon>
+                            <HeartIcon href="" className="h-4 w-4 text-orange-500"></HeartIcon>
+                            <KeyIcon href="" className="h-4 w-4 text-orange-500"></KeyIcon>
+                            <AcademicCapIcon href="" className="h-4 w-4 text-orange-500"></AcademicCapIcon>
                         </div>
                     </div>
                     <div className="text pt-3 text-center">
@@ -294,11 +294,11 @@ export default function Home() {
                 <div className="staff">
                     <div>
                         <img src="/images/teacher-3.jpg" alt=""/>
-                        <div className="flex justify-center justify-around items-center bg-gray-300 p-6 ">
-                            <BeakerIcon className="h-4 w-4"></BeakerIcon>
-                            <HeartIcon className="h-4 w-4"></HeartIcon>
-                            <KeyIcon className="h-4 w-4"></KeyIcon>
-                            <AcademicCapIcon className="h-4 w-4"></AcademicCapIcon>
+                        <div className="flex pl-16 pr-16 justify-around items-center bg-gray-300 p-6 ">
+                            <BeakerIcon href="" className="h-4 w-4 text-orange-500"></BeakerIcon>
+                            <HeartIcon href="" className="h-4 w-4 text-orange-500"></HeartIcon>
+                            <KeyIcon href="" className="h-4 w-4 text-orange-500"></KeyIcon>
+                            <AcademicCapIcon href="" className="h-4 w-4 text-orange-500"></AcademicCapIcon>
                         </div>
                     </div>
                     <div className="text pt-3 text-center">
@@ -315,11 +315,11 @@ export default function Home() {
                 <div className="staff">
                     <div>
                         <img src="images/teacher-4.jpg" alt=""/>
-                        <div className="flex justify-center justify-around items-center bg-gray-300 p-6 ">
-                            <BeakerIcon className="h-4 w-4"></BeakerIcon>
-                            <HeartIcon className="h-4 w-4"></HeartIcon>
-                            <KeyIcon className="h-4 w-4"></KeyIcon>
-                            <AcademicCapIcon className="h-4 w-4"></AcademicCapIcon>
+                        <div className="flex pl-16 pr-16 justify-around items-center bg-gray-300 p-6 ">
+                            <BeakerIcon href="" className="h-4 w-4 text-orange-500"></BeakerIcon>
+                            <HeartIcon href="" className="h-4 w-4 text-orange-500"></HeartIcon>
+                            <KeyIcon href="" className="h-4 w-4 text-orange-500"></KeyIcon>
+                            <AcademicCapIcon href="" className="h-4 w-4 text-orange-500"></AcademicCapIcon>
                         </div>
                     </div>
                     <div className="text pt-3 text-center">
