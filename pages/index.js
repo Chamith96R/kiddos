@@ -406,12 +406,12 @@ export default function Home() {
                     <p className="font1 text-gray-500 font-sans">Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
                 </div>
             </div>
-            <div class="flex flex-wrap pt-10 md:flex items-center justify-center">
+            <div data-aos="fade-up" class=" flex flex-wrap pt-10 md:flex items-center justify-center">
                 <div class="lg:w-4/5 pr-4 pl-4">
                     <div class="flex flex-wrap  md:flex items-center">
-                        <div data-aos="fade-up" class="relative md:flex-grow md:flex-1 flex justify-center">
+                        <div class="relative md:flex-grow md:flex-1 flex justify-center">
                             <div class="text"> 
-                                <CountUp className="flex text-5xl font-bold pb-5 justify-center text-sky-500" end={18} duration={5} />
+                                <CountUp  className="flex text-5xl font-bold pb-5 justify-center text-sky-500" end={18} duration={5} />
                                                                                                                                                                                              
                                 <span>Certified Teachers</span>
                             </div>                           
@@ -863,7 +863,7 @@ export default function Home() {
                 </div>
             </div>
         </div>
-    
+    <Footer/>
     </div>
   )
 }
