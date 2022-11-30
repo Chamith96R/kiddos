@@ -1,6 +1,7 @@
 
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
+import CountUp from 'react-countup';
 
 import { BeakerIcon } from '@heroicons/react/24/solid';
 import { CalculatorIcon } from '@heroicons/react/24/solid';
@@ -8,6 +9,8 @@ import { AcademicCapIcon } from '@heroicons/react/24/solid';
 import { HeartIcon } from '@heroicons/react/24/solid';
 import { HomeIcon } from '@heroicons/react/24/solid';
 import { KeyIcon } from '@heroicons/react/24/solid';
+
+
 
 
 // Import Swiper React components
@@ -252,7 +255,7 @@ export default function Home() {
                 <div className="container">
                     <div>
                         <img src="images/teacher-1.jpg" alt=""/>
-                        <div className="flex pl-16 pr-16 justify-around items-center bg-gray-300 p-6 ">
+                        <div className=" flex pl-16 pr-16 justify-around items-center bg-gray-300 p-6">
                             <BeakerIcon href="" className="h-4 w-4 text-orange-500"></BeakerIcon>
                             <HeartIcon href="" className="h-4 w-4 text-orange-500"></HeartIcon>
                             <KeyIcon href="" className="h-4 w-4 text-orange-500"></KeyIcon>
@@ -401,6 +404,46 @@ export default function Home() {
                 <div data-aos="fade-up" className="md:w-2/3 pr-4 pl-4 text-center font1">
                     <h2 className="mb-10 font-bold text-5xl text-black"><span className="text-violet-700">20 Years of</span> Experience</h2>
                     <p className="font1 text-gray-500 font-sans">Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+                </div>
+            </div>
+            <div class="flex flex-wrap pt-10 md:flex items-center justify-center">
+                <div class="lg:w-4/5 pr-4 pl-4">
+                    <div class="flex flex-wrap  md:flex items-center">
+                        <div data-aos="fade-up" class="relative md:flex-grow md:flex-1 flex justify-center">
+                            <div class="text"> 
+                                <CountUp className="flex text-5xl font-bold pb-5 justify-center text-sky-500" end={18} duration={5} />
+                                                                                                                                                                                             
+                                <span>Certified Teachers</span>
+                            </div>                           
+                        </div>
+                        <div class="relative md:flex-grow md:flex-1 flex justify-center counter-wrap ftco-animate">
+                            <div class="block-18">
+                                <div class="icon"><span class="flaticon-doctor"></span></div>
+                                <div class="text">
+                                    <CountUp className="flex text-5xl font-bold pb-5 justify-center text-sky-500" end={351} duration={5} />
+                                    <span>Successful Kids</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative md:flex-grow md:flex-1 flex justify-center counter-wrap ftco-animate">
+                            <div class="block-18">
+                                <div class="icon"><span class="flaticon-doctor"></span></div>
+                                <div class="text">
+                                    <CountUp className="flex text-5xl font-bold pb-5 justify-center text-sky-500" end={564} duration={5} />
+                                    <span>Happy Parents</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative md:flex-grow md:flex-1 flex justify-center counter-wrap ftco-animate">
+                            <div class="block-18">
+                                <div class="icon"><span class="flaticon-doctor"></span></div>
+                                <div class="text">
+                                    <CountUp className="flex text-5xl font-bold pb-5 justify-center text-sky-500" end={300} duration={5} />
+                                    <span>Awards Won</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -716,7 +759,7 @@ export default function Home() {
             </div>
         </div>
         <div data-aos="fade-up" className="flex flex-wrap font1 pr-6 pl-6 pb-20">
-               <div class="md:w-1/2 pr-4 pl-4 lg:w-1/3 pr-4 pl-4 ftco-animate">
+               <div class="md:w-1/2 pr-4 pl-4 lg:w-1/3 ">
                     <div class="blog-entry">
                         <a href="" class="block-20 fimage5">
                             <div class="content-end meta-date text-center p-2">
@@ -740,7 +783,7 @@ export default function Home() {
                 </div>
         
 
-               <div class="md:w-1/2 pr-4 pl-4 lg:w-1/3 pr-4 pl-4 ftco-animate">
+               <div class="md:w-1/2 pr-4 pl-4 lg:w-1/3">
                     <div class="blog-entry">
                         <a href="" class="block-20 fimage6">
                             <div class="meta-date text-center p-2">
@@ -763,7 +806,7 @@ export default function Home() {
                     </div>
                     </div>
 
-                    <div class="md:w-1/2 pr-4 pl-4 lg:w-1/3 pr-4 pl-4 ftco-animate">
+                    <div class="md:w-1/2 pr-4 pl-4 lg:w-1/3">
                     <div class="blog-entry">
                         <a href="" class="block-20 fimage7">
                             <div class="meta-date text-center p-2">
@@ -820,8 +863,6 @@ export default function Home() {
                 </div>
             </div>
         </div>
-
-        <Footer/>
     
     </div>
   )
