@@ -73,7 +73,7 @@ export default function Home() {
             <div className="md:w-1/4 pr-4 pl-0 flex self-stretch pb-4 px-4 bg-sky-500 overflow-show ">
                 <div className="flex items-start block-6  text-center">                
                     <div className="flex-1 p-10 mt-5 text-white">
-                        <div className="flex justify-center items-center top-5 left-0">
+                        <div className="flex justify-center items-center  left-0">
                         <div className="flex justify-center items-center bg-white h-28 w-28 rounded-full">
                             <BeakerIcon className="h-12 w-12 text-blue-500"/>
 
@@ -416,27 +416,27 @@ export default function Home() {
                                 <span>Certified Teachers</span>
                             </div>                           
                         </div>
-                        <div class="relative md:flex-grow md:flex-1 flex justify-center counter-wrap ftco-animate">
+                        <div class="relative md:flex-grow md:flex-1 flex justify-center counter-wrap">
                             <div class="block-18">
-                                <div class="icon"><span class="flaticon-doctor"></span></div>
+                    
                                 <div class="text">
                                     <CountUp className="flex text-5xl font-bold pb-5 justify-center text-sky-500" end={351} duration={5} />
                                     <span>Successful Kids</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="relative md:flex-grow md:flex-1 flex justify-center counter-wrap ftco-animate">
+                        <div class="relative md:flex-grow md:flex-1 flex justify-center">
                             <div class="block-18">
-                                <div class="icon"><span class="flaticon-doctor"></span></div>
+                                
                                 <div class="text">
                                     <CountUp className="flex text-5xl font-bold pb-5 justify-center text-sky-500" end={564} duration={5} />
                                     <span>Happy Parents</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="relative md:flex-grow md:flex-1 flex justify-center counter-wrap ftco-animate">
+                        <div class="relative md:flex-grow md:flex-1 flex justify-center">
                             <div class="block-18">
-                                <div class="icon"><span class="flaticon-doctor"></span></div>
+                               
                                 <div class="text">
                                     <CountUp className="flex text-5xl font-bold pb-5 justify-center text-sky-500" end={300} duration={5} />
                                     <span>Awards Won</span>
@@ -689,7 +689,7 @@ export default function Home() {
         </div>
         <div data-aos="fade-up" className="flex flex-wrap font1 justify-center">
             <div className="md:w-1/2 pr-4 pl-4 lg:w-1/5">
-                <div className="pricing-entry bg-gray-100 pb-4 text-center">
+                <div className=" bg-gray-100 pb-4 text-center">
                     <div className="p-5">
                         <h3 className="mb-3 text-2xl">Basic</h3>
                         <p><span className="price text-2xl font-extrabold text-sky-500">$24.50</span> <span className="text-xs">/ 5mos</span></p>
@@ -704,7 +704,7 @@ export default function Home() {
                 </div>
             </div>
             <div className="md:w-1/2 pr-4 pl-4 lg:w-1/5">
-                <div className="pricing-entry bg-gray-100 pb-4 text-center">
+                <div className=" bg-gray-100 pb-4 text-center">
                     <div className="p-5">
                         <h3 className="mb-3 text-2xl mt-2">Standard</h3>
                         <p><span className="price text-2xl font-extrabold text-sky-500">$34.50</span> <span className="text-xs">/ 5mos</span></p>
@@ -719,7 +719,7 @@ export default function Home() {
                 </div>
             </div>
             <div className="md:w-1/2 pr-4 pl-4 lg:w-1/5">
-                <div className="pricing-entry bg-gray-100 active pb-4 text-center">
+                <div className=" bg-gray-100 active pb-4 text-center">
                     <div className="p-5">
                         <h3 className="mb-3 text-2xl mt-2">Premium</h3>
                         <p><span className="price text-2xl font-extrabold text-sky-500">$54.50</span> <span className="text-xs">/ 5mos</span></p>
@@ -730,11 +730,11 @@ export default function Home() {
                     <div className="px-4 pb-5">
                         <p className="text-gray-500">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     </div>
-                    <p className="button text-center"><a href="#" className="inline-block align-middle text-center rounded-full py-3 px-3 leading-normal text-white bg-green-500 px-4 py-3">Take A Course</a></p>
+                    <p className="button text-center"><a href="#" className="inline-block align-middle text-center rounded-full leading-normal text-white bg-green-500 px-4 py-3">Take A Course</a></p>
                 </div>
             </div>
             <div className="md:w-1/2 pr-4 pl-4 lg:w-1/5">
-                <div className="pricing-entry bg-gray-100 pb-4 text-center">
+                <div className=" bg-gray-100 pb-4 text-center">
                     <div className="p-5">
                         <h3 className="mb-3 text-2xl mt-2">Platinum</h3>
                         <p><span className="price text-2xl font-extrabold text-sky-500">$89.50</span> <span className="text-xs">/ 5mos</span></p>
@@ -745,7 +745,7 @@ export default function Home() {
                     <div className="px-4 pb-2">
                         <p className="text-gray-500">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     </div>
-                    <p className="button text-center"><a href="#" className="inline-block align-middle text-center rounded-full py-3 px-3 leading-normal text-white bg-red-500 px-4 py-3">Take A Course</a></p>
+                    <p className="button text-center"><a href="#" className="inline-block align-middle text-center rounded-full leading-normal text-white bg-red-500 px-4 py-3">Take A Course</a></p>
                 </div>
             </div>          
         </div>
@@ -772,7 +772,7 @@ export default function Home() {
                             <h2 class="hover:text-sky-500 text-2xl mb-5">Skills To Develop Your Child Memory</h2>
                             <p className="text-gray-500">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                             <div class="flex items-center mt-4">
-                                <p class="mb-0 mt-4"><a href="#" class="inline-block align-middle text-center select-none font-normal whitespace-no-wrap rounded-full py-1 px-3 leading-normal no-underline bg-orange-400 text-white hover:bg-gray-700">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
+                                <p class="mb-0 mt-4"><a href="#" class="inline-block align-middle text-center select-none font-normal rounded-full py-1 px-3 leading-normal no-underline bg-orange-400 text-white hover:bg-gray-700">Read More </a></p>
                                 <p class="ml-auto mb-0">
                                     <a href="#" class="mr-2 text-sky-500">Admin</a>
                                     <a href="#" class=""> 3</a>
@@ -796,7 +796,7 @@ export default function Home() {
                             <h2 class="hover:text-sky-500 text-2xl mb-5">Skills To Develop Your Child Memory</h2>
                             <p className="text-gray-500">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                             <div class="flex items-center mt-4">
-                                <p class="mb-0 mt-4"><a href="#" class="inline-block align-middle text-center select-none font-normal whitespace-no-wrap rounded-full py-1 px-3 leading-normal no-underline bg-orange-400 text-white hover:bg-gray-700">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
+                                <p class="mb-0 mt-4"><a href="#" class="inline-block align-middle text-center select-none font-normal rounded-full py-1 px-3 leading-normal no-underline bg-orange-400 text-white hover:bg-gray-700">Read More </a></p>
                                 <p class="ml-auto mb-0">
                                     <a href="#" class="mr-2 text-sky-500">Admin</a>
                                     <a href="#" class=""> 3</a>
@@ -819,7 +819,7 @@ export default function Home() {
                             <h2 class="hover:text-sky-500 text-2xl mb-5">Skills To Develop Your Child Memory</h2>
                             <p className="text-gray-500">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                             <div class="flex items-center mt-4">
-                                <p class="mb-0 mt-4"><a href="#" class="inline-block align-middle text-center select-none font-normal whitespace-no-wrap rounded-full py-1 px-3 leading-normal no-underline bg-orange-400 text-white hover:bg-gray-700">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
+                                <p class="mb-0 mt-4"><a href="#" class="inline-block align-middle text-center select-none font-normal rounded-full py-1 px-3 leading-normal no-underline bg-orange-400 text-white hover:bg-gray-700">Read More</a></p>
                                 <p class="ml-auto mb-0">
                                     <a href="#" class="mr-2 text-sky-500">Admin</a>
                                     <a href="#" class=""> 3</a>
@@ -842,23 +842,17 @@ export default function Home() {
                 </div>
                 <div class="md:w-1/4">
                     <a href="images/image_2.jpg" class=" flex items-center course2">
-                        <div class="flex items-center justify-center">
-                            <span class="icon-instagram"></span>
-                        </div>
+                       
                     </a>
                 </div>
                 <div class="md:w-1/4 ">
                     <a href="images/image_3.jpg" class=" flex items-center course3">
-                        <div class="flex items-center justify-center">
-                            <span class="icon-instagram"></span>
-                        </div>
+                        
                     </a>
                 </div>
                 <div class="md:w-1/4">
                     <a href="images/image_4.jpg" class=" flex items-center course4">
-                        <div class="flex items-center justify-center">
-                            <span class="icon-instagram"></span>
-                        </div>
+                       
                     </a>
                 </div>
             </div>
