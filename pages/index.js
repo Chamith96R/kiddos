@@ -31,7 +31,12 @@ import { useEffect } from 'react';
 import Section1 from '../components/Section1';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
-
+import Section2 from '../components/Section2';
+import Section3 from '../components/Section3';
+import Section4 from '../components/Section4';
+import Section5 from '../components/Section5';
+import Section6 from '../components/Section6';
+import Section7 from '../components/Section7';
 
 
 export default function Home() {
@@ -71,63 +76,16 @@ export default function Home() {
   <div data-aos="fade-up" className="relative scroll-mb-10">
         <div className="flex flex-wrap no-gutters">
             <div className="md:w-1/4 pr-4 pl-0 flex self-stretch pb-4 px-4 bg-sky-500 overflow-show ">
-                <div className="flex items-start block-6  text-center">                
-                    <div className="flex-1 p-10 mt-5 text-white">
-                        <div className="flex justify-center items-center  left-0">
-                        <div className="flex justify-center items-center bg-white h-28 w-28 rounded-full">
-                            <BeakerIcon className="h-12 w-12 text-blue-500"/>
-
-                        </div>
-                        </div>
-                    
-                        <h3 className="mb-4 font-semibold text-xl">Certified Teachers</h3>                       
-                        <p className="text-gray-200">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                    </div>
-                </div>
+                <Section2 icon={BeakerIcon} title="Certified Teachers" desc="Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic." />
             </div>
             <div className="md:w-1/4 pr-4 pl-0 flex services self-stretch pb-4 px-4 bg-lime-600">
-                <div className="flex items-start block-6 text-center">
-                    <div className="flex-1 p-10 mt-5 text-white">
-                        <div className="flex justify-center items-center top-0 left-0">
-                        <div className="flex justify-center items-center bg-white h-28 w-28 rounded-full">
-                            <CalculatorIcon className="h-12 w-12 text-blue-500"/>
-
-                        </div>
-                        </div>
-                  
-                        
-                        <h3 className="mb-4 font-semibold text-xl">Special Education</h3>
-                        <p className="text-gray-200">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                    </div>
-                </div>
+                <Section2 icon={CalculatorIcon} title="Special Education" desc="Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic." />
             </div>
             <div className="md:w-1/4 pr-4 pl-0 flex services self-stretch pb-4 px-4 bg-indigo-800">
-                <div className="flex items-start block-6 block text-center">
-                    <div className="flex-1 p-10 mt-5 text-white">
-                        <div className="flex justify-center items-center -top-5 left-0">
-                        <div className="flex justify-center items-center bg-white h-28 w-28 rounded-full">
-                            <AcademicCapIcon className="h-12 w-12 text-blue-500"/>
-
-                        </div>
-                        </div>
-                        <h3 className="mb-4 font-semibold text-xl">Book &amp; Library</h3>
-                        <p className="text-gray-200">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                    </div>
-                </div>
+                <Section2 icon={AcademicCapIcon} title="Book &amp; Library" desc="Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic." />
             </div>
             <div className="md:w-1/4 pr-4 pl-0 flex services self-stretch pb-4 px-4 bg-red-700">
-                <div className="flex items-start block-6 block text-center">
-                    <div className="flex-1 p-10 mt-5 text-white">
-                        <div className="flex justify-center items-center top-5 left-0">
-                        <div className="flex justify-center items-center bg-white h-28 w-28 rounded-full">
-                            <HeartIcon className="h-12 w-12 text-blue-500"/>
-
-                        </div>
-                        </div>
-                        <h3 className="mb-4 font-semibold text-xl">Certification</h3>
-                        <p className="text-gray-200">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                    </div>
-                </div>
+                <Section2 icon={HeartIcon} title="Certification" desc="Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic." />
             </div>
         </div>
     </div>
@@ -138,73 +96,18 @@ export default function Home() {
             <div className="md:w-3/5 py-3 pr-2 mt-10 mb-20 font1">
                 <h2 className="mb-4  text-3xl">What We Offer</h2>
                 <p className="text-gray-500">On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word.</p>
-                <div className="flex flex-wrap mt-10">
-                <div className="flex lg:w-1/2 pr-4 pl-4">
-                        <div className="flex items-center m-4"> 
-                        <div className=" justify-center items-center bg-blue-500 p-6 mr-2 rounded-full">
-                                <BeakerIcon className="h-10 w-10 text-white"/>
-                            </div>
-                            <div className="text">
-                                <h3 className="text-xl font-lg">Safety First</h3>
-                                <p className="text-gray-500">Far far away, behind the word mountains, far from the countries Vokalia.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex lg:w-1/2 pr-4 pl-4">
-                        <div className="flex items-center m-4">
-                            <div className=" justify-center items-center bg-blue-500 p-6 mr-2 rounded-full">
-                                <HeartIcon className="h-10 w-10 text-white"/>
-                            </div>    
-                            <div className="text">
-                                <h3 className="text-xl font-lg">Regular class</h3>
-                                <p className="text-gray-500">Far far away, behind the word mountains, far from the countries Vokalia.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex lg:w-1/2 pr-4 pl-4">
-                        <div className="flex items-center m-4"> 
-                        <div className=" justify-center items-center bg-blue-500 p-6 mr-2 rounded-full">
-                                <AcademicCapIcon className="h-10 w-10 text-white"/>
-                            </div>
-                            <div className="text">
-                                <h3 className="text-xl font-lg">Certified Teachers</h3>
-                                <p className="text-gray-500">Far far away, behind the word mountains, far from the countries Vokalia.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex lg:w-1/2 pr-4 pl-4">
-                        <div className="flex items-center m-4">
-                        <div className=" justify-center items-center bg-blue-500 p-6 mr-2 rounded-full">
-                                <CalculatorIcon className="h-10 w-10 text-white"/>
-                            </div>
-                            <div className="text">
-                                <h3 className="text-xl font-lg">Sufficient class</h3>
-                                <p className="text-gray-500">Far far away, behind the word mountains, far from the countries Vokalia.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex lg:w-1/2 pr-4 pl-4">
-                        <div className="items-center flex m-4">
-                        <div className=" justify-center items-center bg-blue-500 p-6 mr-2 rounded-full">
-                                <KeyIcon className="h-10 w-10 text-white"/>
-                            </div>
-                            <div className="text">
-                                <h3 className="text-xl font-lg">Creative Lessons</h3>
-                                <p className="text-gray-500">Far far away, behind the word mountains, far from the countries Vokalia.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex lg:w-1/2 pr-4 pl-4">
-                        <div className="items-center flex m-4">
-                        <div className="flex justify-center items-center bg-blue-500 p-6 mr-2 rounded-full">
-                                <HomeIcon className="h-10 w-10 text-white"/>
-                            </div>
-                            <div className="text">
-                                <h3 className="text-xl font-lg">Sports Facilities</h3>
-                                <p className="text-gray-500">Far far away, behind the word mountains, far from the countries Vokalia.</p>
-                            </div>
-                        </div>
-                    </div>
+                <div className="flex flex-wrap mt-10">        
+                        <Section3 icon={BeakerIcon} title="Safety First" desc="Far far away, behind the word mountains, far from the countries Vokalia."/>
+                                            
+                        <Section3 icon={HeartIcon} title="Regular class" desc="Far far away, behind the word mountains, far from the countries Vokalia." />
+                                           
+                        <Section3 icon={AcademicCapIcon} title="Certified Teachers" desc="Far away, behind the word mountains, far from the countries Vokalia." />
+                                            
+                        <Section3 icon={CalculatorIcon} title="Sufficient class" desc="Far away, behind the word mountains, far from the countries Vokalia. "/>
+                        
+                        <Section3 icon={KeyIcon} title="Creative Lessons" desc="Far away, behind the word mountains, far from the countries Vokalia." />
+                                        
+                        <Section3 icon={HomeIcon} title="Sports Facilities" desc="Far away, behind the word mountains, far from the countries Vokalia." />                    
                 </div>
             </div>
             <div data-aos="fade-up" className="md:w-2/5 pr-4 pl-4 order-md-last wrap-about py-5 wrap-about bg-gray-100">
@@ -234,7 +137,7 @@ export default function Home() {
                     It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
                 </div>
                 <div className="md:w-1/4 pr-4 pl-4 flex items-center">
-                    <button type='button' className="inline-block align-middle text-center select-none font-normal rounded-full py-3 px-3 leading-normal bg-orange-400 text-white px-5 py-3">Take a Course</button>
+                    <button type='button' className=" text-center font-normal rounded-full leading-normal bg-orange-400 text-white px-5 py-3">Take a Course</button>
                 </div>
             </div>
         </div>
@@ -252,87 +155,22 @@ export default function Home() {
         </div>
         <div className="flex flex-wrap font1">
             <div data-aos="fade-up" className="md:w-1/2 lg:w-1/4 pr-4 pl-4">
-                <div className="container">
-                    <div>
-                        <img src="images/teacher-1.jpg" alt=""/>
-                        <div className=" flex pl-16 pr-16 justify-around items-center bg-gray-300 p-6">
-                            <BeakerIcon href="" className="h-4 w-4 text-orange-500"></BeakerIcon>
-                            <HeartIcon href="" className="h-4 w-4 text-orange-500"></HeartIcon>
-                            <KeyIcon href="" className="h-4 w-4 text-orange-500"></KeyIcon>
-                            <AcademicCapIcon href="" className="h-4 w-4 text-orange-500"></AcademicCapIcon>
-                        </div>
-                    </div>
-                    <div className="pt-3 text-center">
-                        <h3 className="text-2xl pb-1 hover:text-blue-500 font-semibold">Bianca Wilson</h3>
-                        <span className="text-gray-400 ">TEACHER</span>
-                        <div className="">
-                            <p className="text-base text-gray-500 mt-3">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-                        </div>
-                    </div>
-                </div>
+                <Section4 img="images/teacher-1.jpg" title="Bianca Wilson" subtitle="TEACHER" desc="I am an ambitious workaholic, but apart from that, pretty simple person." />
             </div>
+
+
+            <div data-aos="fade-up" className="md:w-1/2 pr-4 pl-4 lg:w-1/4 ">
+                <Section4 img="images/teacher-2.jpg" title="Mitch Parker" subtitle="ENGLISH TEACHER" desc="I am an ambitious workaholic, but apart from that, pretty simple person." />
+            </div>
+
 
             <div data-aos="fade-up" className="md:w-1/2 pr-4 pl-4 lg:w-1/4">
-                <div className="staff">
-                    <div>
-                        <img src="images/teacher-2.jpg" alt=""/>
-                        <div className="flex pl-16 pr-16 justify-around items-center bg-gray-300 p-6 ">
-                            <BeakerIcon href="" className="h-4 w-4 text-orange-500"></BeakerIcon>
-                            <HeartIcon href="" className="h-4 w-4 text-orange-500"></HeartIcon>
-                            <KeyIcon href="" className="h-4 w-4 text-orange-500"></KeyIcon>
-                            <AcademicCapIcon href="" className="h-4 w-4 text-orange-500"></AcademicCapIcon>
-                        </div>
-                    </div>
-                    <div className="text pt-3 text-center">
-                        <h3 className="text-2xl pb-1 hover:text-blue-500 font-semibold">Mitch Parker</h3>
-                        <span className="text-gray-400">ENGLISH TEACHER</span>
-                        <div>
-                            <p className="text-gray-500 text-base mt-3">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-                        </div>
-                    </div>
-                </div>
+                <Section4 img="images/teacher-3.jpg" title="Stella Smith" subtitle="ART TEACHER" desc="I am an ambitious workaholic, but apart from that, pretty simple person." />
             </div>
 
-            <div data-aos="fade-up" className="md:w-1/2 pr-4 pl-4 lg:w-1/4 pr-4 pl-4 ftco-animate">
-                <div className="staff">
-                    <div>
-                        <img src="/images/teacher-3.jpg" alt=""/>
-                        <div className="flex pl-16 pr-16 justify-around items-center bg-gray-300 p-6 ">
-                            <BeakerIcon href="" className="h-4 w-4 text-orange-500"></BeakerIcon>
-                            <HeartIcon href="" className="h-4 w-4 text-orange-500"></HeartIcon>
-                            <KeyIcon href="" className="h-4 w-4 text-orange-500"></KeyIcon>
-                            <AcademicCapIcon href="" className="h-4 w-4 text-orange-500"></AcademicCapIcon>
-                        </div>
-                    </div>
-                    <div className="text pt-3 text-center">
-                        <h3 className="text-2xl pb-1 hover:text-blue-500 font-semibold">Stella Smith</h3>
-                        <span className="text-gray-400">ART TEACHER</span>
-                        <div>
-                            <p className="text-gray-500 text-base mt-3">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <div data-aos="fade-up" className="md:w-1/2 pr-4 pl-4 lg:w-1/4 pr-4 pl-4 ftco-animate">
-                <div className="staff">
-                    <div>
-                        <img src="images/teacher-4.jpg" alt=""/>
-                        <div className="flex pl-16 pr-16 justify-around items-center bg-gray-300 p-6 ">
-                            <BeakerIcon href="" className="h-4 w-4 text-orange-500"></BeakerIcon>
-                            <HeartIcon href="" className="h-4 w-4 text-orange-500"></HeartIcon>
-                            <KeyIcon href="" className="h-4 w-4 text-orange-500"></KeyIcon>
-                            <AcademicCapIcon href="" className="h-4 w-4 text-orange-500"></AcademicCapIcon>
-                        </div>
-                    </div>
-                    <div className="text pt-3 text-center">
-                        <h3 className="text-2xl pb-1 hover:text-blue-500 font-semibold">Monshe Henderson</h3>
-                        <span className="text-gray-400">SCIENCE TEACHER</span>
-                        <div>
-                            <p className="text-gray-500 text-base mt-3">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-                        </div>
-                    </div>
-                </div>
+            <div data-aos="fade-up" className="md:w-1/2 pr-4 pl-4 lg:w-1/4">
+                <Section4 img="images/teacher-4.jpg" title="Monshe Henderson" subtitle="SCIENCE TEACHER" desc="I am an ambitious workaholic, but apart from that, pretty simple person." />
             </div>
         </div>
     </div>
@@ -346,52 +184,16 @@ export default function Home() {
         </div>
         <div data-aos="fade-up" className="flex flex-wrap ">
             <div className="flex justify-center md:w-1/2 pr-4 pl-4 mb-4">
-                <div className="flex flex-col md:flex-row md:max-w-xl bg-gray-100 shadow-lg">
-                  <img className=" w-full h-96 md:h-60 object-cover md:w-48" src="images/course-1.jpg" alt="" />
-                  <div className="p-6 flex flex-col justify-start">
-                    <h5 className="text-sky-500 text-xl font-medium mb-2">Arts Lesson</h5>
-                    <p className="text-black pb-6"><span className="text-orange-400">className time:</span> 9:00am - 10am</p>
-                    <p className="text-gray-500 text-base mr-4">
-                        Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country
-                    </p>
-                  </div>
-                </div>
+                <Section5 img="images/course-1.jpg" title="Arts Lesson"/>               
             </div>
             <div className="flex justify-center md:w-1/2 pr-4 pl-4 mb-4">
-                <div className="flex flex-col md:flex-row md:max-w-xl bg-gray-100 shadow-lg">
-                  <img className=" w-full h-96 md:h-auto object-cover md:w-48" src="images/course-2.jpg" alt="" />
-                  <div className="p-6 flex flex-col justify-start">
-                    <h5 className="text-sky-500 text-xl font-medium mb-2">Language Lesson</h5>
-                    <p className="text-black pb-6"><span className="text-orange-400">className time:</span> 9:00am - 10am</p>
-                    <p className="text-gray-500 text-base mr-4">
-                        Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country
-                    </p>
-                  </div>
-                </div>
+                <Section5 img="images/course-2.jpg" title="Language Lesson"/>
             </div>
             <div className="flex justify-center lg:flex md:w-1/2 pr-4 pl-4 mb-4">
-                <div className="flex flex-col md:flex-row md:max-w-xl bg-gray-100 shadow-lg">
-                  <img className=" w-full h-96 md:h-auto object-cover md:w-48" src="images/course-3.jpg" alt="" />
-                  <div className="p-6 flex flex-col justify-start">
-                    <h5 className="text-sky-500 text-xl font-medium mb-2">Music Lesson</h5>
-                    <p className="text-black pb-6"><span className="text-orange-400">className time:</span> 9:00am - 10am</p>
-                    <p className="text-gray-500 text-base mr-4">
-                        Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country
-                    </p>
-                  </div>
-                </div>
+                <Section5 img="images/course-3.jpg" title="Music Lesson"/>
             </div>
             <div className="flex justify-center lg:flex md:w-1/2 pr-4 pl-4 mb-4">
-                <div className="flex flex-col md:flex-row md:max-w-xl bg-gray-100 shadow-lg">
-                  <img className=" w-full h-96 md:h-auto object-cover md:w-48" src="images/course-4.jpg" alt="" />
-                  <div className="p-6 flex flex-col justify-start">
-                    <h5 className="text-sky-500 text-xl font-medium mb-2">Sports Lesson</h5>
-                    <p className="text-black pb-6"><span className="text-orange-400">className time:</span> 9:00am - 10am</p>
-                    <p className="text-gray-500 text-base mr-4">
-                        Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country
-                    </p>
-                  </div>
-                </div>
+                <Section5 img="images/course-4.jpg" title="Sports Lesson"/>
             </div>
         </div>
     </div>
@@ -473,154 +275,29 @@ export default function Home() {
              onSlideChange={() => console.log('slide change')}
             >
             <SwiperSlide>
-            <section class="p-6 md:p-12 text-center md:text-left font1">
-            <div class="flex justify-center">
-                <div class="max-w-3xl">
-                <div class="block p-6 rounded-lg m-4">
-                    <div class="md:flex md:flex-row">
-                    <div
-                        class="md:w-96 w-36 flex justify-center items-center mb-6 lg:mb-0 mx-auto md:mx-0"
-                    >
-                        <img
-                        src="/images/teacher-1.jpg"
-                        width="120px"
-                        align="top"
-                        class="rounded-full shadow-md"
-                        alt="woman avatar"
-                        />
-                    </div>
-                    <div class="md:ml-6">
-                        <p class="text-gray-500 text-lg mb-6">
-                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                        </p>
-                        <p class="font-semibold text-xl text-gray-800">Racky Henderson</p>
-                        <p class="font-xs text-sky-500 mb-0">Father</p>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            </section>
+                <Section6 img="/images/teacher-1.jpg" desc="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+                 name="Racky Henderson" role="Father"/>
             </SwiperSlide>
+                
             <SwiperSlide>
-            <section class="p-6 md:p-12 text-center md:text-left">
-            <div class="flex justify-center">
-                <div class="max-w-3xl">
-                <div class="block p-6 rounded-lg m-4">
-                    <div class="md:flex md:flex-row">
-                    <div
-                        class="md:w-96 w-36 flex justify-center items-center mb-6 lg:mb-0 mx-auto md:mx-0"
-                    >
-                        <img
-                        src="/images/teacher-2.jpg"
-                        width="120px"
-                        align="top"
-                        class="rounded-full shadow-md"
-                        alt="woman avatar"
-                        />
-                    </div>
-                    <div class="md:ml-6">
-                        <p class="text-gray-500 text-lg mb-6">
-                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                        </p>
-                        <p class="font-semibold text-xl text-gray-800">Henry Dee</p>
-                        <p class="font-xs text-sky-500 mb-0">Mother</p>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            </section>
+                <Section6 img="/images/teacher-2.jpg" desc="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+                 name="Henry Dee" role="Mother"/>
             </SwiperSlide>
+
             <SwiperSlide>
-            <section class="p-6 md:p-12 text-center md:text-left">
-            <div class="flex justify-center">
-                <div class="max-w-3xl">
-                <div class="block p-6 rounded-lg m-4">
-                    <div class="md:flex md:flex-row">
-                    <div
-                        class="md:w-96 w-36 flex justify-center items-center mb-6 lg:mb-0 mx-auto md:mx-0"
-                    >
-                        <img
-                        src="/images/teacher-3.jpg"
-                        width="120px"
-                        align="top"
-                        class="rounded-full shadow-md"
-                        alt="woman avatar"
-                        />
-                    </div>
-                    <div class="md:ml-6">
-                        <p class="text-gray-500 text-lg mb-6">
-                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                        </p>
-                        <p class="font-semibold text-xl text-gray-800">Mark Huff</p>
-                        <p class="font-xs text-sky-500 mb-0">Mother</p>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            </section>
+                <Section6 img="/images/teacher-3.jpg" desc="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+                 name="Mark Huff" role="Mother"/>
+            
             </SwiperSlide>
+
             <SwiperSlide>
-            <section class="p-6 md:p-12 text-center md:text-left">
-            <div class="flex justify-center">
-                <div class="max-w-3xl">
-                <div class="block p-6 rounded-lg m-4">
-                    <div class="md:flex md:flex-row">
-                    <div
-                        class="md:w-96 w-36 flex justify-center items-center mb-6 lg:mb-0 mx-auto md:mx-0"
-                    >
-                        <img
-                        src="/images/teacher-4.jpg"
-                        width="120px"
-                        align="top"
-                        class="rounded-full shadow-md"
-                        alt="woman avatar"
-                        />
-                    </div>
-                    <div class="md:ml-6">
-                        <p class="text-gray-500 text-lg mb-6">
-                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                        </p>
-                        <p class="font-semibold text-xl text-gray-800">Rodel Golez</p>
-                        <p class="font-xs text-sky-500 mb-0">Mother</p>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            </section>
+                <Section6 img="/images/teacher-4.jpg" desc="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+                 name="Rodel Golez" role="Mother"/>
             </SwiperSlide>
+
             <SwiperSlide>
-            <section class="p-6 md:p-12 text-center md:text-left">
-            <div class="flex justify-center">
-                <div class="max-w-3xl">
-                <div class="block p-6 rounded-lg m-4">
-                    <div class="md:flex md:flex-row">
-                    <div
-                        class="md:w-96 w-36 flex justify-center items-center mb-6 lg:mb-0 mx-auto md:mx-0"
-                    >
-                        <img
-                        src="/images/teacher-1.jpg"
-                        width="120px"
-                        align="top"
-                        class="rounded-full shadow-md"
-                        alt="woman avatar"
-                        />
-                    </div>
-                    <div class="md:ml-6">
-                        <p class="text-gray-500 text-lg mb-6">
-                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                        </p>
-                        <p class="font-semibold text-xl text-gray-800">Ken Bosh</p>
-                        <p class="font-xs text-sky-500 mb-0">Mother</p>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            </section>
+                <Section6 img="/images/teacher-1.jpg" desc="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+                 name="Ken Bosh" role="Mother"/>
             </SwiperSlide>
            
         </Swiper>
@@ -688,65 +365,23 @@ export default function Home() {
             </div>
         </div>
         <div data-aos="fade-up" className="flex flex-wrap font1 justify-center">
+
             <div className="md:w-1/2 pr-4 pl-4 lg:w-1/5">
-                <div className=" bg-gray-100 pb-4 text-center">
-                    <div className="p-5">
-                        <h3 className="mb-3 text-2xl">Basic</h3>
-                        <p><span className="price text-2xl font-extrabold text-sky-500">$24.50</span> <span className="text-xs">/ 5mos</span></p>
-                    </div>
-                    <div className="pb-4">
-                        <img src="images/bg_1.jpg" alt=""/>
-                    </div>
-                    <div className="px-4 pb-6">
-                        <p className="font1 text-gray-500">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
-                    <p className="button text-center"><a href="#" className="inline-block align-middle text-center font-normal whitespace-no-wrap rounded-full py-3 px-3 leading-normal bg-blue-600 text-white hover:bg-blue-600 px-4 py-3">Take A Course</a></p>
-                </div>
+                <Section7 title="Basic" price="$24.50" img="images/bg_1.jpg" bgprimary="bg-blue-600" />
+                
+            </div>
+            
+            <div className="md:w-1/2 pr-4 pl-4 lg:w-1/5">
+                <Section7 title="Standard" price="$34.50" img="images/bg_2.jpg" bgprimary="bg-orange-400" />
+                
             </div>
             <div className="md:w-1/2 pr-4 pl-4 lg:w-1/5">
-                <div className=" bg-gray-100 pb-4 text-center">
-                    <div className="p-5">
-                        <h3 className="mb-3 text-2xl mt-2">Standard</h3>
-                        <p><span className="price text-2xl font-extrabold text-sky-500">$34.50</span> <span className="text-xs">/ 5mos</span></p>
-                    </div>
-                    <div className="pb-4">
-                        <img src="images/bg_2.jpg" alt=""/>
-                    </div>
-                    <div className="px-4 pb-5">
-                        <p className="text-gray-500">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
-                    <p className="button text-center"><a href="#" className="inline-block align-middle text-center font-normal whitespace-no-wrap rounded-full py-3 px-3 leading-normal bg-orange-400 text-white hover:bg-gray-700 px-4 py-3">Take A Course</a></p>
-                </div>
+                <Section7 title="Premium" price="$54.50" img="images/bg_3.jpg" bgprimary="bg-green-500" />
+                
             </div>
             <div className="md:w-1/2 pr-4 pl-4 lg:w-1/5">
-                <div className=" bg-gray-100 active pb-4 text-center">
-                    <div className="p-5">
-                        <h3 className="mb-3 text-2xl mt-2">Premium</h3>
-                        <p><span className="price text-2xl font-extrabold text-sky-500">$54.50</span> <span className="text-xs">/ 5mos</span></p>
-                    </div>
-                    <div className="pb-4">
-                        <img src="images/bg_3.jpg" alt=""/>
-                    </div>
-                    <div className="px-4 pb-5">
-                        <p className="text-gray-500">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
-                    <p className="button text-center"><a href="#" className="inline-block align-middle text-center rounded-full leading-normal text-white bg-green-500 px-4 py-3">Take A Course</a></p>
-                </div>
-            </div>
-            <div className="md:w-1/2 pr-4 pl-4 lg:w-1/5">
-                <div className=" bg-gray-100 pb-4 text-center">
-                    <div className="p-5">
-                        <h3 className="mb-3 text-2xl mt-2">Platinum</h3>
-                        <p><span className="price text-2xl font-extrabold text-sky-500">$89.50</span> <span className="text-xs">/ 5mos</span></p>
-                    </div>
-                    <div className="pb-4">
-                        <img className="lg:h-44 w-full" src="images/bg_4.jpg" alt=""/>
-                    </div>
-                    <div className="px-4 pb-2">
-                        <p className="text-gray-500">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
-                    <p className="button text-center"><a href="#" className="inline-block align-middle text-center rounded-full leading-normal text-white bg-red-500 px-4 py-3">Take A Course</a></p>
-                </div>
+                <Section7 title="Platinum" price="$89.50" img="images/bg_4.jpg" bgprimary="bg-red-500" />
+                
             </div>          
         </div>
     </div>

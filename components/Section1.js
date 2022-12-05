@@ -33,7 +33,7 @@ export default function Section1() {
                 <h1 className="text-3xl lg:text-6xl font-extrabold mt-0 mb-2">Kids Are The Best</h1>
                 <h3 className="text-3xl lg:text-6xl font-extrabold mb-8">Explorers In The World</h3>
                 <button type="button"
-                    className="inline-block align-middle text-center select-none font-normal whitespace-no-wrap rounded-full py-3 px-5 leading-normal no-underline bg-orange-400 text-white hover:bg-orange-700 px-4 py-3"
+                    className="inline-block align-middle text-center select-none font-normal whitespace-no-wrap rounded-full leading-normal no-underline bg-orange-400 text-white hover:bg-orange-700 px-4 py-3"
                     data-mdb-ripple="true" data-mdb-ripple-color="light">
                     Read More
                 </button>
